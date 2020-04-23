@@ -27,8 +27,8 @@ with open("README.md", "r") as fh:
 ext_modules = [
     Extension(
         name='cython_bbox',
-        sources=['src/cython_bbox.pyx'],
-        extra_compile_args=['-Wno-cpp'],
+        sources=['src\cython_bbox.pyx'],
+        extra_compile_args=[],
         include_dirs=[numpy_include]
     )
 ]

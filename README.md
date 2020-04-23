@@ -6,9 +6,15 @@ In order to use it in standalone code snippets or small projects, I make it a py
 
 ## install
 
+For Linux
 ```
 pip install cython_bbox
 ```
+For Windows 10
+```
+python setup.py develop
+```
+
 
 ## usage
 
